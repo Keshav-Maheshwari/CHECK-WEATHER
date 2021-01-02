@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WEATHER-APP</title>
+    <script src="https://kit.fontawesome.com/e8daac6d65.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <style>
+        * {
+            font-family: "East Sea Dokdo", cursive;
+        }
+
+        html,
+        body,
+        h1 {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .container {
+            width: 100%;
+            height: 20%;
+            background-color: black;
+            text-align: center;
+            font-size: larger;
+
+
+        }
+
+        .container h1 {
+            padding-top: 40px;
+            color: blanchedalmond;
+
+        }
+
+        #unique {
+            border: 2px solid black;
+            width: 300px;
+            position: absolute;
+            top: 30%;
+            left: 40%;
+            background-color: #fff;
+            padding-top: 20px;
+            
+            border-radius: 30px;
+            background-color: black;
+            text-align: center;
+            color: blanchedalmond;
+
+        }
+        .content {
+      background-image: linear-gradient(to left, yellow, green);
+      height: 100%;
+      width: 100%;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>CHECK-WEATHER</h1>
+    </div>
+    
+    <div class="content">
+        <section id="unique">
+            <form action="/" method="post">
+                <h1>CHECK-WEATHER</h1>
+
+                <p><input type="text" name="n1" placeholder="Enter Name Of Your City"></p>
+                <p><button type="submit">Click To Know Weather</button></p>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
