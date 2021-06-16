@@ -12,7 +12,7 @@ app.get("/", function (req, res) {
 
 app.post("/", function (req, res) {
     let city = req.body.n1;
-    let url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=7366d25302ec6119f155c8e2dafcd8f2&units=metric";
+    let url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=key&units=metric";
 
     https.get(url, function (response) {
 
